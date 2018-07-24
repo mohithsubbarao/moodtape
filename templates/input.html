@@ -1,0 +1,23 @@
+<head><script type="text/javascript">
+	function showDiv() {
+	   document.getElementById('load').style.display = "block";
+	}
+</script></head>
+{% extends "layout.html" %}
+
+{% block body %}
+ 
+<script src="script.js"></script>
+<div class="block1">
+<h1>Welcome to Moodtape!</h1>
+  <p>What's your Mood Right Now? (0.0 to 1.0)</p>
+</div>
+
+<form method="POST">
+    <input name="text">
+    <input type="submit" onclick="showDiv()"/>
+</form>
+
+<div id="load" style="display:none;" class="loader"></div>
+
+{% endblock %}

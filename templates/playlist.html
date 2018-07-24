@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block body %}
+ 
+<div class="block1">
+<h1>Welcome to Moodtape!</h1>
+  <p>What's your mood right now? (0.0 to 1.0)</p>
+
+</div>
+
+<form>
+	<input type="button" value="Play Your 'Moodtape'!" onclick="window.location.href='{{playlist}}'"/>
+</form>
+
+
+{% endblock %}
+
+
