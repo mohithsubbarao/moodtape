@@ -20,9 +20,9 @@ import random
 #         - API: Add Tracks to a Playlist
 #         - Scope: playlist-modify-public
 
-client_id = '646c49ad43da4248b48e9f9a0bf3032e'
-client_secret = '350de098a3c84fab8db230247f2ef063'
-redirect_uri = 'https://localhost:8008/'
+client_id = "blank"
+client_secret = "blank"
+redirect_uri = "blank"
 
 scope = 'user-library-read user-top-read playlist-modify-public user-follow-read'
 
